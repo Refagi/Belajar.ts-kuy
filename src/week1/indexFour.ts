@@ -19,7 +19,7 @@ let age: number = 30;
 let address: string = "Jln. Malioboro, Yogjakarta";
 let hobby: string = "gaming!";
 let fullSentence1 = processSentence(names,age,address,hobby);
-function processSentence(name: string, age: number, address: string, hobby: string){
+function processSentence(name: string, age: number, address: string, hobby: string): string{
     return `Nama saya ${name}, Umur saya ${age} tahun, Alamat saya di ${address}, dan Saya punya hobby yaitu ${hobby}`
 }
 console.log(fullSentence1); 
